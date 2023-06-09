@@ -533,13 +533,16 @@ body {
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
-    margin-bottom: 48px;
+    margin-bottom: 36px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .hero-section {
     padding: 188px 0;
+  }
+  .main-heading {
+    margin-bottom: 48px;
   }
 }
 
@@ -955,8 +958,8 @@ body {
     margin-bottom: 72px;
   }
 
-  .subscribe-form-field-email {
-    margin-bottom: 16px;
+  .subscribe-btn {
+    margin-top: 16px;
   }
 }
 
@@ -1209,6 +1212,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--text-color-light-gray);
+}
+
+@media screen and (max-width: 427px) {
+  .contact-form-privacy-policy-label {
+    display: flex;
+  }
 }
 
 .contact-form-custom-checkbox {
